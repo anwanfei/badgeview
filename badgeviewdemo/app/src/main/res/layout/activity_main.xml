@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--CoordinatorLayout从另一层面去控制子view之间触摸事件的布局，Design library中的很多控件都利用了它。
+    当你将FloatingActionButton作为一个子View添加进CoordinatorLayout
+    并且将CoordinatorLayout传递给Snackbar.make()，在3.0及其以上的设备上，Snackbar不会
+    显示在悬浮按钮的上面，而是FloatingActionButton利用CoordinatorLayout提供的回调方法，
+    在Snackbar以动画效果进入的时候自动向上移动让出位置，
+    并且在Snackbar动画地消失的时候回到原来的位置，不需要额外的代码。-->
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cd_home_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--AppBarLayout跟它的名字一样，把容器类的组件全部作为AppBar。
+        这里就是把Toolbar和TabLayout放到了AppBarLayout中，让他们当做一个整体作为AppBar。-->
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/material_primary"
+            android:theme="@style/ToolBarStyle"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/Theme.AppCompat.Light"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/material_primary"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/material_white_500"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/material_white_500"
+            app:tabTextColor="@color/material_grey_300" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</android.support.design.widget.CoordinatorLayout>

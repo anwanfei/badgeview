@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\demos.xml",
+        "source": "D:\\project\\android-viewbadger-master1\\app\\src\\main\\res\\layout\\demos.xml"
+    },
+    {
+        "merged": "D:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\project\\android-viewbadger-master1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tests.xml",
+        "source": "D:\\project\\android-viewbadger-master1\\app\\src\\main\\res\\layout\\tests.xml"
+    }
+]

@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Wed Jul 12 14:18:02 CST 2017
+2.base=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+5.set=ANDROID_RESOURCE
+3.base=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon.png
+2.set=ANDROID_RESOURCE
+4.base=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\demos.xml
+7.set=ANDROID_RESOURCE
+count=8
+0.file=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+5.base=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+1.set=ANDROID_RESOURCE
+7.base=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\tests.xml
+6.set=ANDROID_RESOURCE
+0.base=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+3.file=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\badge_ifaux.9.png
+3.set=ANDROID_RESOURCE
+1.base=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=D\:\\project\\android-viewbadger-master1\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+0.set=DEX
